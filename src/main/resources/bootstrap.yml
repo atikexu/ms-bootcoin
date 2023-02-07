@@ -1,0 +1,17 @@
+status:
+  property: bootcoin  Profile Dev
+server:
+  port: 8096
+spring:
+  application:
+    name: bootcoin
+  data:
+    mongodb:
+      url: mongodb://localhost:27017/bootcoin
+#      database: Credits
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
